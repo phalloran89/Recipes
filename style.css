@@ -3,7 +3,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 28px;
-    background-color: rgb(219, 80, 45);
+    background-color: rgb(86, 164, 216);
     margin-bottom: 5px;
     padding: 1px;
 }
@@ -14,18 +14,25 @@
     background-color: rgb(89, 192, 196);
 }
 
+ul {
+    padding: 0px;
+}
+
 .main-list a {
+    border: 5px solid;
+    margin-bottom: 8px;
     text-decoration: none;
-    background-color: antiquewhite;
+    background-color: rgb(162, 198, 221);
     display: inline-flex;
-    padding: 1em;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .main-list a:hover {
     text-decoration: none;
-    background-color: brown;
+    background-color: rgb(219, 97, 15);
 }
 
 .text {
